@@ -2,11 +2,13 @@
 <html lang="lt">
 
 <head>
+    <script src="https://kit.fontawesome.com/5bc9bd169b.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteka</title>
     <link rel="stylesheet" href="css/lab8.css">
+    <script src="js/lab8.js"></script>
 </head>
 <body>
     <nav>
@@ -15,23 +17,36 @@
                 <a href="https://vilniustech.lt/"><img src="images/VilniusTech.png" alt="VilniusTech"></a>
             </div>
             <div class="right">
-                <img src="images/searchlogo.png" alt="searchlogo">
-                <a href="https://eu.opencitiesplanner.bentley.com/vilniustech/sauletekis"><img src="images/maplogo.png" alt="maplogo"></a>
-                <a href="https://vilniustech.lt/papildomi-elementai/svetaines-medis/1140"><img src="images/connectionlogo.png" alt="connectionlogo"></a>
-                <a href="https://mano.vilniustech.lt/">Mano VILNIUSTECH</a>
-                <a href="https://vilniustech.lt/index.php?lang=2">EN</a>
+                <input type="text" id="search-bar">
+                <button onclick="showbar()" type="submit"><i class="fa-solid fa-magnifying-glass fa-lg"></i></button>
+                <a class="pictogram" href="https://eu.opencitiesplanner.bentley.com/vilniustech/sauletekis"><i class="fa-solid fa-location-dot fa-lg"></i></a>
+                <a class="pictogram" href="https://vilniustech.lt/papildomi-elementai/svetaines-medis/1140"><i class="fa-solid fa-network-wired fa-lg"></i></a>
+                <a class="text" href="https://mano.vilniustech.lt/">Mano VILNIUSTECH</a>
+                <a class="text" href="https://vilniustech.lt/index.php?lang=2">EN</a>
             </div>
         </div>
 
         <div class="lower">
-            <a href="https://vilniustech.lt/biblioteka/190949">Biblioteka</a>
-            <a href="https://vilniustech.lt/biblioteka/erdves/bibliotekos-erdves/282656">Erdves</a>
-            <a href="https://vilniustech.lt/biblioteka/paslaugos/leidiniu-skolinimas/192043">Paslaugos</a>
-            <a href="https://vilniustech.lt/biblioteka/elistekliai/duomenu-bazes/286201">El.istekliai</a>
-            <a href="https://vilniustech.lt/biblioteka/moksline-komunikacija/vilnius-tech-publikacijos/287435">Moksline komunikacija</a>
-            <a href="https://vilniustech.lt/biblioteka/leidyba/325976">Leidyba</a>
-            <a href="https://ebooks.vilniustech.lt/">Ebooks</a>
-            <a href="https://eshop.vilniustech.lt/lt/">Eshop</a>
+            <div class="dropdown">
+                <button class="drop1"><a href="https://vilniustech.lt/biblioteka/190949">Biblioteka</a></button>
+                    <div class="content1">
+                        <a href="https://vilniustech.lt/biblioteka/biblioteka/apie-mus/190951?lang=1">Apie mus</a>
+                        <a href="https://vilniustech.lt/biblioteka/biblioteka/darbo-laikas-ir-tvarka/190962?lang=1">Darbo laikas ir tvarka</a>
+                        <a href="https://vilniustech.lt/biblioteka/biblioteka/naujienos/190990?lang=1">Naujienos</a>
+                        <a href="https://vilniustech.lt/biblioteka/biblioteka/naujienlaiskis-/191017?lang=1">Naujienlaiškis</a>
+                        <a href="https://vilniustech.lt/biblioteka/biblioteka/vilnius-tech-skaito/191035?lang=1">Vilnius Tech skaito</a>
+                        <a href="https://vilniustech.lt/biblioteka/biblioteka/vilnius-tech-zemelapis/298083?lang=1">Vilnius Tech žemėlapis</a>
+                        <a href="https://vilniustech.lt/biblioteka/biblioteka/duk/192113?lang=1">D.U.K</a>
+                        <a href="https://vilniustech.lt/biblioteka/biblioteka/kontaktai/192098?lang=1">Kontaktai</a>
+                    </div>
+            </div>
+            <button class="drop2"><a href="https://vilniustech.lt/biblioteka/erdves/bibliotekos-erdves/282656">Erdves</a></button>
+            <button class="drop3"><a href="https://vilniustech.lt/biblioteka/paslaugos/leidiniu-skolinimas/192043">Paslaugos</a></button>
+            <button class="drop4"><a href="https://vilniustech.lt/biblioteka/elistekliai/duomenu-bazes/286201">El.istekliai</a></button>
+            <button class="drop5"><a href="https://vilniustech.lt/biblioteka/moksline-komunikacija/vilnius-tech-publikacijos/287435">Moksline komunikacija</a></button>
+            <button class="drop6"><a href="https://vilniustech.lt/biblioteka/leidyba/325976">Leidyba</a></button>
+            <button class="drop7"><a href="https://ebooks.vilniustech.lt/">Ebooks</a></button>
+            <button class="drop8"><a href="https://eshop.vilniustech.lt/lt/">Eshop</a></button>
         </div>
     </nav>
 
@@ -96,11 +111,16 @@
             <p>Saulėtekio al. 14, LT-10223 Vilnius</p>
             <p>Tel. (8 5) 274 4900</p>
             <p>Faks. (8 5) 274 4904</p>
-            <p>El. paštas</p>
-            <a href = "biblioteka@vilniustech.lt">biblioteka@vilniustech.lt</a>
+            <p>El. paštas <a href = "biblioteka@vilniustech.lt">biblioteka@vilniustech.lt</a></p>
+            
         </div>
         <div class="right">
+            <i class="fa-brands fa-facebook-f"></i>
             <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <p>e-solution <a href="https://mediapark.com/"></a></p>
         </div>
     </footer>
 </body>
