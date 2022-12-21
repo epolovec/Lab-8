@@ -8,11 +8,11 @@ body {
     margin: auto;
 }
 
-nav {
+header {
     background-color: rgb(255, 255, 255);
     overflow: hidden;
     width:100%;
-    margin: 6px 5px 5px 5px;
+    margin: 6px 5px 0px 5px;
     font-weight: bold;
 }
 .right i {
@@ -56,10 +56,10 @@ nav {
 }
 
 .lower {
-    overflow: hidden;
+
     width: 100%; 
     text-align: center;
-    padding: 10px 0px 200px 0px;
+    padding: 10px 0px 20px 0px;
     position: relative;
 }
 
@@ -87,7 +87,7 @@ nav {
     top: 100%; 
     left: 0;
     width: 100%;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     min-width: 160px;
     z-index: 1;
     transition: height 1s ease;
@@ -104,7 +104,16 @@ nav {
 
 
 .background {
-    width: 100%;
+    left: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	position:relative;
+	right: 50%;
+	width: 100vw;
+    display: wrap;
+    justify-content : space-around;
+    align-items: center;
+
 }
 
 .naujienos {
