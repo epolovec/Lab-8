@@ -88,9 +88,10 @@ header {
     left: 0;
     width: 100%;
     background-color: #ffffff;
-    min-width: 160px;
+    min-width: 360px;
     z-index: 1;
     transition: height 1s ease;
+    padding: 25px 0px 15px 10px;
 }
   
 .content1 a {
@@ -102,6 +103,9 @@ header {
 
 .dropdown:hover .content1 {display: block;}
 
+.wrap {
+    display:flex;
+}
 
 .background {
     left: 50%;
