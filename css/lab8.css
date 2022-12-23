@@ -108,16 +108,21 @@ header {
 }
 
 .background {
+    width: 100vw;
+    position: relative;
     left: 50%;
-	margin-left: -50vw;
-	margin-right: -50vw;
-	position:relative;
-	right: 50%;
-	width: 100vw;
-    display: wrap;
-    justify-content : space-around;
-    align-items: center;
+    transform: translateX(-50%);
+}
 
+.background img{
+    max-width: 100vw;
+    width: 100vw;
+    margin-left: 50%;
+     transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
 }
 
 .naujienos {
