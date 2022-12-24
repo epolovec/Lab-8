@@ -194,20 +194,24 @@ footer .left .links a {
     font-size: small;
 }
 
-.icon {
-    display: inline-block;
-    background-color: white;
+.fa-brands {
+    background: #ffc0c0;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
-    width: 1em;
-    height: 1em;
-    line-height: 1;
-    font-size: 1em;
     text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 30px;
   }
 
   footer .right {
     flex-direction: column;
     justify-content: flex-end;
-    position: absolute;
-  right: 0;
+    margin: 30px;
+    padding: 0;
+  }
+
+  footer .right p {
+    float:right;
   }
