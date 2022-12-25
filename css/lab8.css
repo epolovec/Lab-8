@@ -170,7 +170,7 @@ iframe {
 footer { 
     margin: 0 -9999rem;
     /* add back negative margin value */
-    padding: 0px 9999rem 300px 9999rem ;
+    padding: 0px 9999rem 175px 9999rem ;
     background: #F1F8FD;
 }
 
@@ -195,23 +195,54 @@ footer .left .links a {
 }
 
 .fa-brands {
-    background: #ffc0c0;
-    width: 20px;
-    height: 20px;
+    background: #ffffff;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     text-align: center;
-    line-height: 100px;
+    line-height: 20px;
     vertical-align: middle;
-    padding: 30px;
+    color: #3e7aeb;
   }
 
   footer .right {
     flex-direction: column;
     justify-content: flex-end;
-    margin: 30px;
+    margin: 20px 10px;
     padding: 0;
   }
 
   footer .right p {
     float:right;
+    color: #86878a;
+    font-size: small;
+    margin-top: 40px;
   }
+
+
+  footer .right a {
+    color: #86878a;
+    font-size: small;
+    font-weight: bold
+  }
+
+  .icons i {
+    padding: 10px;
+    margin: 2px;
+  }
+
+
+
+
+  /* .fa-brands {
+    background: #ffc0c0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 30px;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+  } */
