@@ -131,44 +131,144 @@ header {
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
+    vertical-align: middle;
 }
 
 .paieska {
     margin: 0 -9999rem;
     /* add back negative margin value */
-    padding: 0px 9999rem 175px 9999rem ;
+    padding: 0px 9999rem 30px 9999rem ;
     background: #0b4dc7;
-    padding-top: 10px;
+    padding-top: 5px;
+}
+
+.paieska .container {
+    margin-left: 10px;
 }
 
 .paieska h2 {
     text-transform:uppercase;
-    font-size: medium;
+    font-size: 17px;
     margin: 0;
+    color: #a7a8ac;
+    border: 0;
 }
 
-.naujienos {
+.paieska input {
+    margin-top: 30px;
+    height: 45px;
+    width: 940px;
+    border-style: hidden;
+    border-radius: 2px;
+}
+
+.my-input[placeholder] {
+    text-indent: 1em;
+}
+
+.paieska .container button {
+    border: none;
+    background: none;
+    color: #a7a8ac;
+    margin-top: 10px;
+    padding: 0;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.naujienos .title, .ivykiai .title {
+    display: flex;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.title h3 {
+    font-size: 28px;
+    margin-top: 55px;
+    margin-bottom: 15px;
+}
+
+.title a {
+    margin-left: 15px;
+    margin-top: 70px;
+    font-size: small;
+    font-weight: bold;
+    color: #3a75e4;
+}
+
+.naujienos .naujausios {
     display: flex;
     flex-wrap: wrap;
     align-items: left;
     justify-content: left;
-}
-
-.naujienos div {
-    padding: 15px;
-    margin: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
     background-color:white;
-    max-width: 430px;
-  }
+    max-width: 650px;
+}
 
-.naujienos div img {
-    max-width: 400px;
+.naujausios div {
+    margin-right: 25px;
 }
-.naujienos div p {
-    margin:10px 0px 10px 0px;
+.naujausios div img {
+    max-width: 300px;
 }
-.naujienos div h4 {
-    margin:10px 0px 10px 0px;
+.naujausios div p {
+    margin:4px 0px 4px 0px;
+    font-size: small;
+    color: #86878a;
+}
+.naujausios div h4 {
+    margin:6px 0px 55px 0px;
+    max-width: 300px;
+    font-size: 17px;
+    color: #424242;
+}
+
+.ivykiai ul {
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+.ivykiai li {
+    display: flex;
+    padding: 10px 0;
+}
+
+.ivykiai li .date {
+    max-width: 55px;
+    min-width: 55px;
+}
+
+.date .month {
+    margin: 0;
+    font-size: 15px;
+    color: #0b4dc7;
+    font-weight: bold;
+    float: right;
+}
+
+.date .year {
+    margin: 0;
+    font-size: small;
+    color: #424242;
+    float: right;
+}
+
+.ivykiai li a {
+    font-size: 17px;
+    font-weight: bold;
+    color: #424242;
+    margin-left: 20px;
+    max-width: 210px;
+    min-width: 210px;
 }
 
 iframe {
