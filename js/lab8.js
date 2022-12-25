@@ -2,6 +2,13 @@ function showbar() {
     document.getElementById("search-bar").style.display = "block";
 }
 
+const image = document.getElementById('image');
+const background = document.querySelector('.background');
+
+image.addEventListener('load', () => {
+  background.style.height = `${image.offsetHeight}px`;
+});
+
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
 
@@ -19,3 +26,4 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 } 
+

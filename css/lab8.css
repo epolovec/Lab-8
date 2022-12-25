@@ -115,6 +115,7 @@ header {
 }
 
 .background {
+    box-sizing: border-box;
     width: 100vw;
     position: relative;
     left: 50%;
@@ -132,9 +133,18 @@ header {
     -o-transform: translateX(-50%);
 }
 
+.paieska {
+    margin: 0 -9999rem;
+    /* add back negative margin value */
+    padding: 0px 9999rem 175px 9999rem ;
+    background: #0b4dc7;
+    padding-top: 10px;
+}
+
 .paieska h2 {
     text-transform:uppercase;
     font-size: medium;
+    margin: 0;
 }
 
 .naujienos {
