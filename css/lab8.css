@@ -58,9 +58,11 @@ header {
 }
 
 .lower {
+    display: flex;
     width: 100%; 
     text-align: center;
-    padding: 10px 0px 20px 0px;
+    padding: 10px 9999rem 20px 9999rem;
+    margin: 0 -9999rem;
     position: relative;
 }
 
@@ -73,14 +75,19 @@ header {
 .lower button {
     background-color: transparent;
     border: none;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 29px;
+    padding-right: 29px;
 }
 
-.sticky {
+.lower button a {
+    white-space: nowrap;
+}
+
+#navbar {
     position: sticky;
     top: 0;
-    width: 100%;
+    background-color: #ffffff;
+    z-index:1;
 }
 
 .dropdown {
@@ -311,6 +318,30 @@ main {
     border-left: 2px solid;
     border-color: #9d9da0;
     margin-bottom: 25px;
+}
+
+.instagram {
+    margin-bottom: 245px;
+}
+
+.instagram a {
+    font-size:x-large;
+    font-weight: bolder;
+    color: #424242;
+}
+
+.instagram .title {
+    margin: 90px 0 30px 0;
+}
+
+.instagram .images img {
+    max-width: 220px;
+    max-height: 220px;
+    margin: 0 15px 15px 0;
+}
+
+.no-margin {
+    margin: 0;
 }
 
 iframe {
