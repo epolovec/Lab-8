@@ -271,6 +271,48 @@ main {
     min-width: 210px;
 }
 
+.informacija {
+    margin-left: 10px;
+}
+
+.informacija .info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.informacija h2 {
+    font-size:27px;
+    color: #0b4dc7;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.informacija img {
+    max-width: 615px;
+    max-height: 340px;
+}
+
+.informacija ul {
+    list-style: none;
+    padding: 0;
+    max-width: 290px;
+    margin: 0 0 0 25px;
+}
+
+.informacija a {
+    font-size: large;
+    font-weight: bold;
+    color: #0b4dc7;
+    line-height: 48px;
+}
+
+.informacija li {
+    padding-left: 10px;
+    border-left: 2px solid;
+    border-color: #9d9da0;
+    margin-bottom: 25px;
+}
+
 iframe {
     width: 1280;
     height: 720;
