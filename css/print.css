@@ -1,0 +1,14 @@
+@media print {
+    * {
+        font-family: serif;
+    }
+
+    header, .lower, .background, .paieska, footer {
+        display: none;
+    }
+
+    body {
+        max-width: 100%;
+        width: 100%;
+    }
+}
